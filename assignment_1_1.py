@@ -1,6 +1,6 @@
 def is_older(my_age, brother_age, sister_age):
     # Ulozte do promenne vysledek logicke operace "Jste mladsi nez Vas bratr?"
-    is_older_a = ...
+    is_older_a = my_age < brother_age
     print(f"Are you younger than your brother? {is_older_a}")
 
     # Ulozte do promenne vysledek logicke operace "Je Vas bratr starsi nez Vase sestra?"
